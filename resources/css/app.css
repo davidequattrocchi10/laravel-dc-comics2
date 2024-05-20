@@ -1,0 +1,14 @@
+footer {
+    padding: 3px;
+    background-image: url(/public/images/footer-bg.jpg);
+
+
+    & h6 {
+        color: white;
+    }
+
+    & li {
+        list-style: none;
+        color: dimgrey;
+    }
+}

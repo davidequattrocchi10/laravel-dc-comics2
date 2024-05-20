@@ -19,12 +19,33 @@
 
     @include('partials.admin.header')
 
-    @yield('content')
+    <div class="container-fluid min-vh-100">
+        <div class="row">
+            <div class="col-2">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> fjaoidha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> fjaoiadgBHSFdha</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-10">
+                <main>
+                    @yield('content')
+                </main>
+            </div>
+        </div>
+
+    </div>
 
     @include('partials.admin.footer')
 
 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5e033dde00.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
