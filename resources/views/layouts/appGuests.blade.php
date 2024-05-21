@@ -22,6 +22,10 @@
 
     @yield('content')
 
+    @include('partials.guests.icons')
+
+    @include('partials.guests.contacts')
+
     @include('partials.guests.footer')
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
